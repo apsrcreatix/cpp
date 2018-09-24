@@ -1,5 +1,5 @@
-#include "iostream"
-#include "math.h" //using math.h for mathematical function available
+#include <iostream>
+#include <math.h> //using math.h for mathematical function available
 using namespace std;
 int main(){
     //some common data types you may use

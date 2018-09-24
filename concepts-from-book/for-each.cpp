@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
-void printer(int array[]){
-	for(auto x:array) cout<<x<<" ";
-}
+
 int main(int argc, char const *argv[])
 {
 	int size;
@@ -14,6 +12,9 @@ int main(int argc, char const *argv[])
 		i++;
 	}
 	// for each variable x in array
-	printer(array);//printing
+
+	for (auto x : array)
+		cout << x << " ";
+
 	return 0;
 }
